@@ -39,12 +39,12 @@ html_theme = 'furo'
 html_theme_options = {
     "sidebar_hide_name": False,
     "light_css_variables": {
-        "color-brand-primary": "#D36817",
-        "color-brand-content": "#D36817",
+        "color-brand-primary": "#2480A8",
+        "color-brand-content": "#2480A8",
     },
     "dark_css_variables": {
-        "color-brand-primary": "#D36817",
-        "color-brand-content": "#D36817",
+        "color-brand-primary": "#2A9BCB",
+        "color-brand-content": "#2A9BCB",
     }
 }
 html_static_path = ['_static']
@@ -52,6 +52,7 @@ html_css_files = [
     'custom.css',
 ]
 html_logo = "_static/peakweather_logo.png"
+html_favicon = '_static/peakweather_logo.png'
 
 source_suffix = {
     '.rst': 'restructuredtext',

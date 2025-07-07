@@ -12,21 +12,34 @@ PeakWeather
 Key Features
 ------------
 
-- **High-resolution observations**: 10-minute interval data spanning 2017-2025 over 302 SwissMetNet stations distributed across Switzerlad
+- **High-resolution observations**: 10-minute interval data spanning 2017-2025 over 302 SwissMetNet stations distributed across Switzerland
 - **Multiple variables**: Temperature, pressure, humidity, wind, radiation, precipitation and more
 - **Topographic descriptors**: Elevation, slope, aspect, and surface roughness to describe the Swiss complex terrain
 - **NWP baselines**: Ensemble forecasts from ICON-CH1-EPS, the state-of-the-art numerical prediction model operational at MeteoSwiss
 - **Support to different tasks**: including time series forecasting, missing data imputation, virtual sensing, graph structure learning
 
 
+.. image:: ./_static/stations.png
+  :width: 400
+  :alt: Stations
+
+
 Related Resources
 -----------------
 
-- **Dataset access on Hugging Face**: https://huggingface.co/datasets/meteoswiss/PeakWeather
-- **GitHub repository of the library**: https://github.com/meteoswiss/peakweather
-- **Paper introducing the dataset**: https://arxiv.org/abs/2506.13652
-- **Code for an application to wind forecasting**: https://github.com/Graph-Machine-Learning-Group/peakweather-wind-forecasting
-- **Website**: [This page]
+- **Dataset** access on **Hugging Face**:   
+   | https://huggingface.co/datasets/meteoswiss/PeakWeather
+- **GitHub** repository of the **library**: 
+   | https://github.com/meteoswiss/peakweather
+- **Paper** introducing the dataset: 
+   | PeakWeather: MeteoSwiss Weather Station Measurements for Spatiotemporal Deep Learning.
+   | *Daniele Zambon, Michele Cattaneo, Ivan Marisca, Jonas Bhend, Daniele Nerini, Cesare Alippi.*
+   | Preprint 2025.
+   | https://arxiv.org/abs/2506.13652
+- **Code for an application to wind forecasting**: 
+   | https://github.com/Graph-Machine-Learning-Group/peakweather-wind-forecasting
+- Read the Docs **documentation**: 
+   | https://peakweather.readthedocs.io/
 
 
 Quickstart
