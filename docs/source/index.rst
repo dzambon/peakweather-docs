@@ -16,7 +16,7 @@ Key Features
 - **Multiple variables**: Temperature, pressure, humidity, wind, radiation, precipitation and more
 - **Topographic descriptors**: Elevation, slope, aspect, and surface roughness to describe the Swiss complex terrain
 - **NWP baselines**: Ensemble forecasts from ICON-CH1-EPS, the state-of-the-art numerical prediction model operational at MeteoSwiss
-- **Support to different tasks**: including time series forecasting, missing data imputation, virtual sensing, graph structure learning
+- **Ideal for**: Many tasks including time series forecasting, missing data imputation, virtual sensing, and graph structure learning
 
 
 .. image:: ./_static/stations.png
@@ -58,7 +58,7 @@ If access to the topographical descpitors is desired, then there are additional 
    pip install "peakweather[topography] @ git+https://github.com/MeteoSwiss/PeakWeather@main" # Install with extras
 
 
-When the `PeakWeatherDataset` is instanciated for the first time, the weather data is downloaded.
+When the `PeakWeatherDataset` is instantiated for the first time, the weather data is downloaded.
 
 .. code-block:: python
 
